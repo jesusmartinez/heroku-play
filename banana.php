@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+setcookie("andy", "rules");
 
 if (!isset($_SESSION["bananas"])){
     $_SESSION["bananas"] = 1;
