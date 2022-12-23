@@ -1,7 +1,13 @@
 <?php
 
 session_start();
-setcookie("andy", "rules");
+setcookie("moon", "shines");
+print_r($_SESSION);
+print_r($_COOKIE);
+print_r($_REQUEST);
+print_r($_GET);
+print_r(ini_get_all());
+
 
 if (!isset($_SESSION["bananas"])){
     $_SESSION["bananas"] = 1;
